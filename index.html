@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Charlex91</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Comfortaa:700"
+      rel="stylesheet"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/web-animations-js@2.3.2/web-animations.min.js"></script>
+    <script src="https://unpkg.com/muuri@0.8.0/dist/muuri.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="icon"
+      href="https://user-images.githubusercontent.com/102770961/170397745-5343c248-8902-420f-99de-e765529ec9a8.png"
+      type="image/png"
+    />
+  </head>
+
+  <body>
+    <div id="loading">
+      <div id="spinner">
+        <div id="fondo"></div>
+      </div>
+    </div>
+    <div id="particles-js"></div>
+    <div id="box">
+      <div
+        class="box1 onlywide animated bounceOutLeft"
+        style="animation-delay: 1.7s"
+      ></div>
+      <div
+        class="box2 onlywide animated bounceOutLeft"
+        style="animation-delay: 1.8s"
+      ></div>
+      <div
+        class="box2 onlywide animated bounceOutLeft"
+        style="animation-delay: 1.9s"
+      ></div>
+      <div
+        class="box2 animated bounceOutRight"
+        style="animation-delay: 1.9s"
+      ></div>
+      <div
+        class="box2 onlywide animated bounceOutRight"
+        style="animation-delay: 1.8s"
+      ></div>
+      <div
+        class="box2 onlywide animated bounceOutRight"
+        style="animation-delay: 1.7s"
+      ></div>
+    </div>
+    <a
+      id="work"
+      onclick="showwork()"
+      class="animated fadeIn"
+      style="animation-delay: 2.2s"
+      >WORKS</a
+    >
+    <div id="middle" class="animated slideInDown" style="animation-delay: 1.5s">
+      <h1>Carlos Carmona</h1>
+      <h2>Web Developer / Human</h2>
+      <div id="menu">
+        <a onclick="showwork()">My work!</a>
+      </div>
+      <table>
+        <tr>
+          <td class="animated zoomIn" style="animation-delay: 2.2s">
+            <a
+              href="https://github.com/CharleX91"
+              target="_blank"
+              class="social"
+              ><i class="fab fa-github"></i
+            ></a>
+          </td>
+          <td class="animated zoomIn" style="animation-delay: 2.4s">
+            <a
+              href="https://fb.com/jes.charles.52"
+              target="_blank"
+              class="social"
+              ><i class="fab fa-facebook"></i
+            ></a>
+          </td>
+          <td class="animated zoomIn" style="animation-delay: 2.6s">
+            <a
+              href="https://www.linkedin.com/in/carlos-carmona-750251237"
+              target="_blank"
+              class="social"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <div id="work_container" class="container">
+      <div onclick="closework()">
+        <i class="fas fa-angle-right"></i><i class="fas fa-angle-right"></i>
+      </div>
+      <div id="display">
+        <h1>works.</h1>
+        <div id="works">
+          <div class="projects" id="works_section">
+            <a href="https://github.com/CharleX91/astralTinderV1" target="_blank">
+              <section>
+                <div class="section_title">astralTinderV1</div>
+                <div class="about_section">
+                  <span style="display: block"
+                    >Proyecto final grupal/ Bootcamp EGG Tech - Java Spring Boot</span
+                  >
+                </div>
+                <div class="bottom_section">
+                  <span style="display: inline-block"
+                    ><i class="fas fa-code"></i>&nbsp; HTML, JAVA, CSS</span
+                  >
+                  <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                  <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                </div>
+              </section>
+            </a>
+            <a href="https://github.com/CharleX91/CharleX91" target="_blank">
+              <section>
+                <div class="section_title">CharleX91</div>
+                <div class="about_section">
+                  <span style="display: block"
+                    >This is my personal repo for README</span
+                  >
+                </div>
+                <div class="bottom_section">
+                  <span style="display: none"
+                    ><i class="fas fa-code"></i>&nbsp; null</span
+                  >
+                  <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                  <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                </div>
+              </section>
+            </a>
+            <a href="https://github.com/CharleX91/CharleX91.github.io" target="_blank">
+              <section>
+                <div class="section_title">CharleX91.github.io</div>
+                <div class="about_section">
+                  <span style="display: block">Personal Site</span>
+                </div>
+                <div class="bottom_section">
+                  <span style="display: none"
+                    ><i class="fas fa-code"></i>&nbsp; null</span
+                  >
+                  <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                  <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                </div>
+              </section>
+            </a>
+            <a href="https://github.com/CharleX91/Pag.-de-prueba" target="_blank">
+              <section>
+                <div class="section_title">Pag.-de-prueba</div>
+                <div class="about_section">
+                  <span style="display: block"
+                    >Primer repo, un pequeño ejemplo de perfil personal. html +
+                    CSS</span
+                  >
+                </div>
+                <div class="bottom_section">
+                  <span style="display: inline-block"
+                    ><i class="fas fa-code"></i>&nbsp; HTML</span
+                  >
+                  <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                  <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                </div>
+              </section>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="footer">Nothing is sacred, only nature<br /></div>
+
+    <script src="index.js" type="text/javascript"></script>
+    <script src="particles.js"></script>
+    <script src="app.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-160046559-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-160046559-1");
+    </script>
+  </body>
+</html>
